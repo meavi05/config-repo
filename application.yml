@@ -1,1 +1,2 @@
 server.url = 172.0.0.1:8282/default
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
