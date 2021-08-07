@@ -1,6 +1,9 @@
-spring.application.name=auth-service
-server.port=8082
-eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
+server: 
+  port: 8082
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone:  http://localhost:8761/eureka/
 
-secret-key:secret-key
-jwtvalidityInMilliseconds:60000
+secret-key: secret-key
+jwtvalidityInMilliseconds:  60000
