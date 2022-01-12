@@ -1,12 +1,18 @@
-spring.application.name=user-service
-server.port=8081
-eureka.client.serviceUrl.defaultZone=http://localhost:9001/eureka/
+spring:
+  application:
+    name: user-service
+server:
+  port: 8081
+  eureka: 
+    client: 
+     serviceUrl: 
+       defaultZone:  http://localhost:9001/eureka/
 
 
-spring.h2.console.enabled=true
-spring.jpa.show-sql=false
-server.error.whitelabel.enabled=false
-#logging.level.com.apartment=DEBUG
-#secret-key:secret-key
-#jwtvalidityInMilliseconds:60000
+  h2: 
+    console:  
+      enabled:  true
+  jpa:
+    show-sql: false
+    
 
