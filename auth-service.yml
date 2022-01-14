@@ -6,4 +6,4 @@ eureka:
       defaultZone:  http://localhost:9001/eureka/
 
 secret-key: secret-key
-jwtvalidityInMilliseconds:  60000
+jwtvalidityInMilliseconds:  900000
